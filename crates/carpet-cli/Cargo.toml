@@ -1,0 +1,14 @@
+[package]
+name = "carpet-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "carpet"
+path = "src/main.rs"
+
+[dependencies]
+carpet = { path = "../carpet" }
+carpet-ir = { path = "../carpet-ir" }
+carpet-codegen = { path = "../carpet-codegen" }
+mirage = { path = "../mirage" }
