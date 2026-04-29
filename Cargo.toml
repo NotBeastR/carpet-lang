@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "crates/carpet",
+    "crates/carpet-ir",
+    "crates/carpet-codegen",
+    "crates/mirage",
+    "crates/carpet-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"

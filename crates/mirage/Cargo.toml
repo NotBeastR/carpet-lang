@@ -1,0 +1,7 @@
+[package]
+name = "mirage"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+carpet-codegen = { path = "../carpet-codegen" }
